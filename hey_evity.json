@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Evity",
+  "author": "Topher White",
+  "model": "hey_evity.tflite",
+  "trained_languages": ["en","nl","fr","de","it","es","sv"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "feature_step_size": 10,
+    "sliding_window_size": 10,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
